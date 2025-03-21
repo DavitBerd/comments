@@ -11,7 +11,7 @@ type CommentProps = {
   onRepostCountChange: (commentId: string, newCount: number) => void;
 };
 
-const CURRENT_USER = "CurrentUser";
+const CURRENT_USER = "John";
 
 export const Comment = ({
   comment,
